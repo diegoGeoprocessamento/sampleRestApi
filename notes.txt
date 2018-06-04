@@ -45,9 +45,30 @@ sera criada a pasta node_modules a mesma mdeve ser adicionada no arquivo .gitign
 no package.json será criada as dependecies do projeto e quando a pessoa receber o projeto
 ela deva utilizar o comando npm install sera verificado as dependecies e instalado automaticamnte
 
-
-
 Aula 02 ---------- end
+
+
+
+Aula 03 ---------- start
+
+Criar o servidor web
+
+debug para debugar o projeto
+express MVC
+http servidor http recebe e responde requisições
+
+deve-se importar os 3 pacotes
+
+para importar deve-se usar require nome = require('pacote');
+o nome do pacote direto procura em node_modules
+para pegar outros arquivos deve-se usar './pasta/arquivo'
+
+Após importar os pacotes e criar os mesmos, deve-se testar a API
+node .\server.js
+
+Deve-se também testar no Postman GET http://localhost:3000
+
+Aula 03 ---------- end
 
 
 
