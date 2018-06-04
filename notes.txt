@@ -71,6 +71,16 @@ Deve-se também testar no Postman GET http://localhost:3000
 Aula 03 ---------- end
 
 
+Aula 04 ---------- start
+
+Criar uma função para identificar uma porta disponível
+
+const port = normalizePort(process.env.PORT || '3000');
+A função verifica se existe alguma porta, caso não exista determina a 3000
+
+Aula 04 ---------- end
+
+
 
 
 

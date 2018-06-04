@@ -7,7 +7,7 @@ const express = require('express');
 
 // criar o express
 const app = express();
-const port = 3000;
+const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 // criar o servidor
@@ -26,3 +26,16 @@ app.use('/', route);
 // rodar a API
 server.listen(port);
 console.log('API rodando na porta ' + port);
+
+// verificar a porta
+function normalizePort(val){
+    const port = parseInt(val, 10);
+
+    if(isNaN(port)){
+        return val;
+    }
+
+    if(port >= 0){
+        return port;
+    }
+}
