@@ -1,0 +1,56 @@
+Aula 01 ---------- start
+
+Rest API Node.js & MongoDB
+
+Node.js = Interpretador javascript
+npm = Gerenciador de pacotes Node.js
+
+Prompt de comando:
+npm --version
+node --version
+
+Aula 01 ---------- end
+
+
+Aula 02 ---------- start
+
+Criar o diretório do projeto: Evitar nomes grandes e caracteres especiais
+
+Prompt de comando:
+ls mostra os itens do diretório
+clear limpa
+mkdir cria pasta
+
+inicializar a aplicação do Node.js
+
+npm init -y
+
+* -y é para responder yes para todas as perguntas
+
+vai ser criado o aquivo package.json
+
+No visual studio deve-se criar o servidor web e adicionar uma porta para ele
+
+'use strict'  faz o javascript ser mais criterioso na validação do código
+
+node .\server.js para testar no terminal
+
+somente com o node não possível criar um servidor http
+deve-se instalar 2 pacotes e 1 pacote para debugar
+
+npm install http express debug --save
+
+sera criada a pasta node_modules a mesma mdeve ser adicionada no arquivo .gitignore
+
+no package.json será criada as dependecies do projeto e quando a pessoa receber o projeto
+ela deva utilizar o comando npm install sera verificado as dependecies e instalado automaticamnte
+
+
+
+Aula 02 ---------- end
+
+
+
+
+
+
