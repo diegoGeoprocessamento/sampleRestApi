@@ -17,11 +17,11 @@ Aula 02 ---------- start
 Criar o diretório do projeto: Evitar nomes grandes e caracteres especiais
 
 Prompt de comando:
-ls mostra os itens do diret�rio
+ls mostra os itens do diretório
 clear limpa
 mkdir cria pasta
 
-inicializar a aplica��o do Node.js
+inicializar a aplicação do Node.js
 
 npm init -y
 
@@ -35,7 +35,7 @@ No visual studio deve-se criar o servidor web e adicionar uma porta para ele
 
 node .\server.js para testar no terminal
 
-somente com o node não poss�vel criar um servidor http
+somente com o node não possível criar um servidor http
 deve-se instalar 2 pacotes e 1 pacote para debugar
 
 npm install http express debug --save
@@ -109,7 +109,22 @@ Terminado as modificações deve-se excluir o arquivo server.js antigo
 
 Desta forma separa o servidor da aplicação
 
-Aula 07 ---------- start
+Aula 07 ---------- end
+
+
+Aula 08 ---------- start
+
+Substituir no arquivo package.json
+
+"scripts": {
+"start": "node ./bin/server.js"
+},
+
+desta forma pode executar scripts e pode-se criar quantos quiser
+
+Para executar deve-se ir no prompt e utilziar npm start desta forma o node.js executa o script informado
+
+Aula 08 ---------- end
 
 
 
