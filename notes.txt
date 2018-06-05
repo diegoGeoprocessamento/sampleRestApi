@@ -14,35 +14,35 @@ Aula 01 ---------- end
 
 Aula 02 ---------- start
 
-Criar o diretório do projeto: Evitar nomes grandes e caracteres especiais
+Criar o diretÃ³rio do projeto: Evitar nomes grandes e caracteres especiais
 
 Prompt de comando:
-ls mostra os itens do diretório
+ls mostra os itens do diretï¿½rio
 clear limpa
 mkdir cria pasta
 
-inicializar a aplicação do Node.js
+inicializar a aplicaï¿½ï¿½o do Node.js
 
 npm init -y
 
-* -y é para responder yes para todas as perguntas
+* -y Ã© para responder yes para todas as perguntas
 
 vai ser criado o aquivo package.json
 
 No visual studio deve-se criar o servidor web e adicionar uma porta para ele
 
-'use strict'  faz o javascript ser mais criterioso na validação do código
+'use strict'  faz o javascript ser mais criterioso na validaÃ§Ã£o do cÃ³digo
 
 node .\server.js para testar no terminal
 
-somente com o node não possível criar um servidor http
+somente com o node nÃ£o possï¿½vel criar um servidor http
 deve-se instalar 2 pacotes e 1 pacote para debugar
 
 npm install http express debug --save
 
 sera criada a pasta node_modules a mesma mdeve ser adicionada no arquivo .gitignore
 
-no package.json será criada as dependecies do projeto e quando a pessoa receber o projeto
+no package.json serÃ¡ criada as dependecies do projeto e quando a pessoa receber o projeto
 ela deva utilizar o comando npm install sera verificado as dependecies e instalado automaticamnte
 
 Aula 02 ---------- end
@@ -55,7 +55,7 @@ Criar o servidor web
 
 debug para debugar o projeto
 express MVC
-http servidor http recebe e responde requisições
+http servidor http recebe e responde requisiÃ§Ãµes
 
 deve-se importar os 3 pacotes
 
@@ -63,23 +63,33 @@ para importar deve-se usar require nome = require('pacote');
 o nome do pacote direto procura em node_modules
 para pegar outros arquivos deve-se usar './pasta/arquivo'
 
-Após importar os pacotes e criar os mesmos, deve-se testar a API
+Apï¿½s importar os pacotes e criar os mesmos, deve-se testar a API
 node .\server.js
 
-Deve-se também testar no Postman GET http://localhost:3000
+Deve-se tambÃ©m testar no Postman GET http://localhost:3000
 
 Aula 03 ---------- end
 
 
 Aula 04 ---------- start
 
-Criar uma função para identificar uma porta disponível
+Criar uma funÃ§Ã£o para identificar uma porta disponÃ­vel
 
 const port = normalizePort(process.env.PORT || '3000');
-A função verifica se existe alguma porta, caso não exista determina a 3000
+A funÃ§Ã£o verifica se existe alguma porta, caso nÃ£o exista determina a 3000
 
 Aula 04 ---------- end
 
+
+Aula 05 ---------- start
+
+Criar uma funÃ§Ã£o para identificar erros
+
+Ao tentar por exemplo rodar a API duas vezes vai aparecer que a porta 3000 ja esta em uso
+
+
+
+Aula 05 ---------- end
 
 
 
