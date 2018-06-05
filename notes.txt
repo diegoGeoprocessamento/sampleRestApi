@@ -97,6 +97,19 @@ Inicializar o Debug
 Aula 06 ---------- end
 
 
+Aula 07 ---------- start
+
+Não é interessante trabalhar servidor, API, rotas ... tudo no mesmo arquivo
+
+Criar uma nova pasta na raiz da aplicação bin e dentro dela criar o arquivo server.js
+
+Criar uma nova pasta src e criar o arquivo app.js
+
+Terminado as modificações deve-se excluir o arquivo server.js antigo
+
+Desta forma separa o servidor da aplicação
+
+Aula 07 ---------- start
 
 
 

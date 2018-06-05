@@ -1,34 +1,24 @@
 'use strict'
+// servidor
 
-// importar os pacotes
-const http = require('http');
+// importar os pacotes e arquivos
+const app = require('../src/app'); // importa a aplicação
 const debug = require('debug')('node:server');
-const express = require('express');
+const http = require('http');
 
-// criar o express
-const app = express();
+// port
 const port = normalizePort(process.env.PORT || '3000'); // verificar a porta
 app.set('port', port);
 
-// criar o servidor
+// server
 const server = http.createServer(app);
-const router = express.Router();
 
-// criar a rota
-const route = router.get('/', (req, res, next) =>{
-    res.status(200).send({
-        title: "Node Store API",
-        version: "0.0.1"
-    });
-});
-app.use('/', route);
-
-// rodar a API
 server.listen(port);
 server.on('error', onError); // verificar erros
 server.on('listening', onListening); // debug
 console.log('API rodando na porta ' + port);
 
+// funções do server
 // verificar a porta
 function normalizePort(val){
     const port = parseInt(val, 10);
