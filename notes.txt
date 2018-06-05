@@ -127,4 +127,26 @@ Para executar deve-se ir no prompt e utilziar npm start desta forma o node.js ex
 Aula 08 ---------- end
 
 
+Aula 09 ---------- start
+
+nodemon auxilia o desenvolvimento ele restarta a aplicação quando algum arquivo é alterado
+
+npm install nodemon --save-dev
+
+o dev é para instalar somente em tempo de desenvolvimento ele não entra em dependecies no package.json
+
+Ele entra no devDependencies
+
+nodemon .\bin\server.js
+
+Atualizar o packge.json
+
+"scripts": {
+"start": "nodemon ./bin/server.js"
+},
+
+Aula 09 ---------- end
+
+
+
 
