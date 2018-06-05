@@ -87,9 +87,14 @@ Criar uma função para identificar erros
 
 Ao tentar por exemplo rodar a API duas vezes vai aparecer que a porta 3000 ja esta em uso
 
-
-
 Aula 05 ---------- end
+
+
+Aula 06 ---------- start
+
+Inicializar o Debug
+
+Aula 06 ---------- end
 
 
 
